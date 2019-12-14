@@ -39,6 +39,11 @@ Board is numerated in this fashion:
 
 Setting BOARDS:
 
+IMPORANT!:
+
+Goldens (3's) are set to 0 in the WINNING_BOARD!! As you can see in this Picture:
+
+
 ![Image description](Knights2.png)
 
 ---
@@ -55,5 +60,14 @@ Output with SPEEDUP == True:
 
 
 False returns the optimum, True a suboptimal solution, but way faster.
+
+The 3x3, 4x3, 4x4 boards are usually solved < 1 sec. (SPEEDUP == False)
+
+The 5x4 boards can take several  minutes. (SPEEDUP == False)
+
+The 5x5 boards mostly won't be solved without SPEEDUP == True.
+
+
+IMPORTANT!!::
 
 Printed boards must be read from bottom to top.
