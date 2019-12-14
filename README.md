@@ -55,4 +55,5 @@ Output with SPEEDUP == True:
 
 
 False returns the optimum, True a suboptimal solution, but way faster.
+
 Printed boards must be read from bottom to top.
