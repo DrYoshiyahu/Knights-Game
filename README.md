@@ -71,3 +71,5 @@ The 5x5 boards mostly won't be solved without SPEEDUP == True.
 IMPORTANT!!::
 
 Printed boards must be read from bottom to top.
+
+Uses heapq module.
