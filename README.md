@@ -35,7 +35,7 @@ Figures:
 
 Board is numerated in this fashion:
 
-  ![Image description](Knights1.png)
+  ![Image description](Images/Knights1.png)
 
 Setting BOARDS:
 
@@ -44,7 +44,7 @@ IMPORTANT!:
 Goldens (3's) are set to 0 in the WINNING_BOARD!! As you can see in this Picture:
 
 
-![Image description](Knights2.png)
+![Image description](Images/Knights2.png)
 
 ---
 
@@ -52,11 +52,11 @@ Example:
 
 Output with SPEEDUP == False:
 
-![Image description](slow.png)
+![Image description](Images/slow.png)
 
 Output with SPEEDUP == True:
 
-![Image description](fast.png)
+![Image description](Images/fast.png)
 
 
 False returns the optimum, True a suboptimal solution, but way faster. Time depends on the machine.
