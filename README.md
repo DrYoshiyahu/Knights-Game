@@ -39,7 +39,7 @@ Board is numerated in this fashion:
 
 Setting BOARDS:
 
-IMPORANT!:
+IMPORTANT!:
 
 Goldens (3's) are set to 0 in the WINNING_BOARD!! As you can see in this Picture:
 
