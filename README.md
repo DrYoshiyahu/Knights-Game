@@ -12,13 +12,13 @@ Works:
     Run.
     
     
-SPEEDUP == True will usually solve the Game within max 5 second, but with probable max. ~ 1000 moves.
+SPEEDUP == True will usually solve the Game within max 5 seconds, but with probable max. ~ 1000 moves.
 Around 50-150 mostly.
 
 
 SPEEDUP == False will solve the Game optimal, but will take longer.
 
-For King levels (5x5) SPEEDUP == False will mostly consume too much memory, to be solvable, SPEEDUP == False will do the job.
+For King levels (5x5) SPEEDUP == False will mostly consume too much memory, to be solvable, SPEEDUP == True will do the job.
 
 ---
 
