@@ -59,7 +59,7 @@ Output with SPEEDUP == True:
 ![Image description](fast.png)
 
 
-False returns the optimum, True a suboptimal solution, but way faster.
+False returns the optimum, True a suboptimal solution, but way faster. Time depends on the machine.
 
 The 3x3, 4x3, 4x4 boards are usually solved < 1 sec. (SPEEDUP == False)
 
