@@ -12,7 +12,7 @@ Works:
     Run.
     
     
-SPEEDUP == True will usually solve the Game way faster, uses out of place heuristic. 
+SPEEDUP == True will usually solve the Game way faster, uses out of place heuristic. And is optimal.
 
 SPEEDUP_EXP == True will use a non-admissible heuristic, solves 5x5-boards usually within seconds or less, but may be non-optimal.
 
