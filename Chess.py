@@ -184,5 +184,5 @@ while winner is not None:
 
 
 print("--- %s seconds ---" % (time.time() - start_time))
-print("Win in {} Moves. If SPEEDUP or SPEEDUP_EXP == True, this may NOT be optimal.".format(a - 1))
+print("Win in {} Moves. If SPEEDUP_EXP == True, this may NOT be optimal.".format(a - 1))
 
