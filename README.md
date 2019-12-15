@@ -3,7 +3,7 @@
 
 ---
 
-Python written BFS with heuristic for higher levels. Python Version tested: Python 2.7.15+
+Python written BFS/A* with heuristic for higher levels. Python Version tested: Python 2.7.15+
 
 Works:
 
