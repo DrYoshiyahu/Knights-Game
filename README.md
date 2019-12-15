@@ -9,6 +9,7 @@ Works:
 
     In the Chess.py File change INITIAL_BORD & WINNING_BOARD accordingly.
     Set SPEEDUP False / True.
+    Set SPEEDUP_EXP False / True.
     Run.
     
     
