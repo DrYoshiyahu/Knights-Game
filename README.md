@@ -12,13 +12,14 @@ Works:
     Run.
     
     
-SPEEDUP == True will usually solve the Game within max 5 seconds, but with probable max. ~ 1000 moves.
-Around 50-150 mostly.
+SPEEDUP == True will usually solve the Game way faster, uses out of place heuristic. 
+
+SPEEDUP_EXP == True will use a non-admissible heuristic, solves 5x5-boards usually within seconds or less, but may be non-optimal.
 
 
-SPEEDUP == False will solve the Game optimal, but will take longer.
+SPEEDUP == SPEEDUP_EXP == False will solve the Game optimal, but will take longer (without heuristic).
 
-For King levels (5x5) SPEEDUP == False will mostly consume too much memory, to be solvable, SPEEDUP == True will do the job.
+For King levels (5x5) SPEEDUP == False will mostly consume too much memory, to be solvable, SPEEDUP == True or better: SPEEDUP_EXP == True will do the job.
 
 ---
 
@@ -54,18 +55,18 @@ Output with SPEEDUP == False:
 
 ![Image description](Images/slow.png)
 
-Output with SPEEDUP == True:
+Output with SPEEDUP_EXP == True:
 
 ![Image description](Images/fast.png)
 
 
 False returns the optimum, True a suboptimal solution, but way faster. Time depends on the machine.
 
-The 3x3, 4x3, 4x4 boards are usually solved < 1 sec. (SPEEDUP == False)
+The 3x3, 4x3, 4x4 boards are usually solved < 1 sec. (SPEEDUP == False and SPEEDUP_EXP == False)
 
-The 5x4 boards can take several  minutes. (SPEEDUP == False)
+The 5x4 boards can take several  minutes. (SPEEDUP == False and SPEEDUP_EXP == False)
 
-The 5x5 boards mostly won't be solved without SPEEDUP == True.
+The 5x5 boards mostly won't be solved without SPEEDUP == True or SPEEDUP_EXP == True.
 
 
 IMPORTANT!!::
