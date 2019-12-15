@@ -18,7 +18,7 @@ WINNING_BOARD = [0, 1, -1, 2, 0, 0, -1, 2, -1, 0, 1, 0, 0, 0, 1, 0, -1, 2, -1, 0
 
 # SPEEDUP OR SPEEDUP_EXP, NOT both!
 SPEEDUP = False  # May be turned on for speed, Heuristic: Out of Position
-SPEEDUP_EXP = False  # Non-admissible heuristic, very fast, probably NOT optimal
+SPEEDUP_EXP = True  # Non-admissible heuristic, very fast, probably NOT optimal
 #
 
 assert len(WINNING_BOARD) == len(INITIAL_BOARD)
